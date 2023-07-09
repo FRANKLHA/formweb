@@ -1,0 +1,180 @@
+body {
+  background-color: #000000; /* Color de fondo oscuro */
+}
+
+h2{
+  color: #ffffff;
+}
+
+.ocultar {
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}
+
+#formulario {
+  background-color: rgb(129, 231, 197);
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+h3 {
+  text-align: center;
+  color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="button"] {
+  width: 35%;
+  padding: 10px;
+  background-color: #4c5eaf;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type="button"]:hover {
+  background-color: #45a049;
+}
+
+#btnFacebook {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+#btnGmial {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+#btnPublicar {
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  margin: 0px;
+}
+
+#btnCerrarSesion {
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  margin: 0px;
+}
+
+
+.resultado {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  height: 100%; /* Altura de la ventana del navegador */
+  overflow: hidden;
+
+}
+
+.producto {
+  text-align: center;
+  margin: 10px;
+}
+
+#idPublicar {
+  width: 35%;
+  padding: 10px;
+  background-color: #774caf;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+#carrito {
+  float: right;
+  width: 50px;
+  height: 50px;
+  filter: invert(80%);
+  width: 45px;
+  height: auto;
+}
+
+.resultado {
+  display: flex;
+  justify-content: center;
+  background-color: #5d00ff;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+.resultado>div{
+  box-shadow: 0px 0px 5px 5px rgba(156, 37, 37, 0.75);
+  background-color: #6abef3;
+  border-radius: 20px;
+}
+
+/* df */
+
+.informacion{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:15px;
+}
+.informacion>p:first-child{
+  font-size: 25px;
+  font-weight: 300;
+}
+.informacion .precio {
+  font-size: 20px;
+  font-weight: 500;
+}
+.informacion .precio span{
+  font-size: 17px;
+  font-weight: 300;
+}
+.informacion button{
+  background-color: #e8f298;
+  color: orange;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+
+  font-size: 17px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.informacion button:hover{
+  background-color: #2D4263;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="estilos.css" class="rel">
+</head>
+
+<body>
+  <!---FORMULARIO REGISTRARSE E INICIAR SESION--->
+  <form action="" id="formulario" class="mostrar">
+    <h3>Regístrate</h3>
+    <div>
+      <img src="imagenes/user-login-icon-29.png" alt="Iniciar Sesión">
+    </div>
+    <input type="email" placeholder="Escribe tu email" id="emailRegistrate">
+    <br> <br>
+    <input type="password" placeholder="Escribe tu password" id="passwordRegistrate">
+    <br><br>
+    <input type="button" value="Registrar" id="btnRegistrar">
+    <input type="button" value="Iniciar Sesión" id="btnIniciarSesion">
+    <br><br>
+    <img src="imagenes/gmail.png" alt="inciar con Gmail" id="btnGmial">
+    <img src="imagenes/facebook.png" alt="inciar con Facebook" id="btnFacebook">
+  </form>
+
+  
+  <!---CONTENIDO DE LA WEB--->
+  <div class="conteiner ocultar" id="contenidoDelaWeb">
+    <header>
+      <img src="imagenes/carrito.png" alt="Celular1" id="carrito">
+    </header>
+    <h2> Bienvenid@ al contenido de mi Web</h2>
+    <div></div>
+    <div class="resultado" id="resultado"></div>
+    <h2>Dejanos tu comentario:</h2>
+    <div>
+      <div id="Comentarios:">
+        <input type="text" placeholder="Escribe el Título:">
+        <input type="text" placeholder="Escribe la descripción:">
+        <br> <br>
+        <input type="button" value="Envía Comentario" id="btnPublicar">
+      </div>
+    </div>
+    <br><br>
+
+    <input type="button" value="Cerrar Sesión" id="btnCerrarSesion">
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+  <script src="main.js" type="module" ></script>
+
+
+</body>
+
+</html>
